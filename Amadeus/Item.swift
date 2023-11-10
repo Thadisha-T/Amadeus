@@ -1,9 +1,5 @@
-//
-//  Item.swift
-//  Amadeus
-//
-//  Created by Thadisha Thilakaratne on 7/11/2023.
-//
+// Project: Amadeus
+// Created By: Thadisha Thilakaratne
 
 import Foundation
 import SwiftData
