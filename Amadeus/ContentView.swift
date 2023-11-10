@@ -5,7 +5,6 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
     @State private var selection: TabType = .library
 
     var body: some View {
@@ -39,5 +38,4 @@ private enum TabType {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }
